@@ -4,6 +4,7 @@ class Quipu < Formula
   url "https://github.com/waddie/quipu/archive/refs/tags/v0.4.0.tar.gz"
   sha256 "19610cead2abadc5942646df750610c2aeddffb0a35c9af752595e8ad63c8af5"
   license "AGPL-3.0-or-later"
+  revision 1
   head "https://github.com/waddie/quipu.git", branch: "main"
 
   livecheck do
