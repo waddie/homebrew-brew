@@ -12,6 +12,12 @@ class Quipu < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/waddie/homebrew-brew/releases/download/quipu-0.4.0_1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "b5761a364e2b33a4827a71c3cb3532c5f06c4b490706c48eab2d1b333c915058"
+    sha256 cellar: :any,                 x86_64_linux: "dbdbdaed232c14792fdf9a444c469c1d1874d99add7cdc3f2add38c7b04ed3be"
+  end
+
   depends_on "rust" => :build
 
   deny_network_access!
