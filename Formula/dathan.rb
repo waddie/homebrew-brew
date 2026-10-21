@@ -11,6 +11,12 @@ class Dathan < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/waddie/homebrew-brew/releases/download/dathan-0.10.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "15e910cec26d435d2b4ae32c1dadb0835f0182e3780613a843bd579d110ad5c3"
+    sha256 cellar: :any,                 x86_64_linux: "a385188e444b438621a60ad74f929377a3c9226c14dfeb08e813bd4cec312efd"
+  end
+
   depends_on "rust" => :build
   depends_on "helix" => :recommended
 
