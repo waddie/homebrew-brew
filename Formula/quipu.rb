@@ -1,10 +1,9 @@
 class Quipu < Formula
   desc "Script keyboard entry in the terminal"
   homepage "https://github.com/waddie/quipu"
-  url "https://github.com/waddie/quipu/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "19610cead2abadc5942646df750610c2aeddffb0a35c9af752595e8ad63c8af5"
+  url "https://github.com/waddie/quipu/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "b97f68e4757310fa951154c75d5aaf69aac0c745d4653f3e66ff552134c425a0"
   license "AGPL-3.0-or-later"
-  revision 1
   head "https://github.com/waddie/quipu.git", branch: "main"
 
   livecheck do
