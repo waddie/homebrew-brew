@@ -12,9 +12,9 @@ class Quipu < Formula
   end
 
   bottle do
-    root_url "https://github.com/waddie/homebrew-brew/releases/download/quipu-0.4.0_1"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "b5761a364e2b33a4827a71c3cb3532c5f06c4b490706c48eab2d1b333c915058"
-    sha256 cellar: :any,                 x86_64_linux: "dbdbdaed232c14792fdf9a444c469c1d1874d99add7cdc3f2add38c7b04ed3be"
+    root_url "https://github.com/waddie/homebrew-brew/releases/download/quipu-0.4.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "c805131a0f6c9b68d7af94cacb4f323a3b02f3b2ce4c735bdf9d5c1e5561ca18"
+    sha256 cellar: :any,                 x86_64_linux: "52b38034e0cf4e5500fbf36fac2ca10c54f8809ff2c47d355ce2b72a740b5d19"
   end
 
   depends_on "rust" => :build
